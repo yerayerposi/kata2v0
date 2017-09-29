@@ -17,9 +17,9 @@ public class Histograma {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int [] data = {1,2,-3,7,7,7,2};
+        Integer [] data = {1,2,-3,7,7,7,2};
         Histogram histo = new Histogram(data);
-        Map<Integer,Integer> histogr = new histo.getistogram();
+        Map<Integer,Integer> histogr = new histo.getHistogram();
         
     for(int key : histogr.keySet()){
             System.out.println(key + " -->" + histogr.get(key));
